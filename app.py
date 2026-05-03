@@ -239,7 +239,7 @@ try:
             logo_base64 = base64.b64encode(logo_data).decode()
         st.markdown(f"""
         <div class="logo-container">
-            <img src="image/png;base64,{logo_base64}" alt="شعار المدرسة">
+            <img src="data:image/png;base64,{logo_base64}" alt="شعار المدرسة">
         </div>
         """, unsafe_allow_html=True)
 except Exception as e:
